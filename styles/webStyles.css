@@ -1,0 +1,12 @@
+.grey-text, a:link, a:visited {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #54555a;
+}
+
+a:hover{
+    color:pink;
+}
+
+a:link, a:visited, a:hover, a:active{
+    text-decoration: none;
+}
