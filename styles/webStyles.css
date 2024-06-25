@@ -3,10 +3,39 @@
     color: #54555a;
 }
 
-a:hover{
+
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 3vw;
+    height: 70px;
+    
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: orange;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #54555a;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    
+}
+
+.navbar a:hover{
     color:pink;
 }
 
-a:link, a:visited, a:hover, a:active{
-    text-decoration: none;
+.navbar li{
+    float: left;
 }
